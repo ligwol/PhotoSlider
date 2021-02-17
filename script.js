@@ -47,7 +47,7 @@ nextBtn.onclick = function(e) {
     activeSlide++
     activeBullet++;
 
-    if(activeSlide == slides.length && activeBullet == 0) {
+    if(activeSlide == slides.length && activeBullet == bullets.length) {
         activeSlide = 0;
         activeBullet = 0;
     }
